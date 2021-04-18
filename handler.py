@@ -3,7 +3,7 @@ from flask import Flask, request, Response
 import pandas as pd
 import pickle
 
-from rocket  import rocket
+from rocket.rocket  import Rocket
 
 import inflection
 
